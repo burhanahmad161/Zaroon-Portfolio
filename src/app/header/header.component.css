@@ -1,0 +1,48 @@
+/* styles.css */
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 0;
+    margin: 0;
+}
+
+header .logo img {
+    width: 190px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  padding: 0; /* Remove any extra padding */
+  margin: 0; /* Adjust logo size */
+}
+
+header .header-buttons .btn-link {
+    color: black; /* Set text color for link */
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+header .header-buttons .btn-link:hover {
+    text-decoration: none;
+    color: #458099;
+    transition: .3s ease;
+}
+
+header .header-buttons .btn {
+    background-color: none; /* Background color for button */
+    /* border-color: #1F2E34; Border color for button */
+    border: 2px solid #1F2E34;
+    /* font-weight: bold; */
+    border-radius: 2rem;
+}
+
+header .header-buttons .btn:hover {
+    background-color: #16232d; /* Darker shade for hover effect */
+    /* border-color: #16232d; Darker border color for hover effect */
+    color: white;
+    /* font-weight: bold; */
+    transition: .3s ease;
+    border-radius: 2rem;
+}

@@ -1,0 +1,30 @@
+
+
+
+<header class="bg-light py-3">
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <!-- Logo -->
+            <a class="navbar-brand" href="/home">
+                <img src="assets/logo.jpeg" alt="Logo" class="img-fluid" style="max-height: 50px;"> <!-- Adjust max-height as needed -->
+            </a>
+
+            <!-- Toggler Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Menu -->
+            <div class="header-buttons collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto d-flex align-items-center">
+                    <a (click)="scrollToWork()" class="btn-link px-3" style="cursor: pointer;">My Work</a>
+                    <button class="btn ml-3" routerLink="/contact">Say Hello</button>
+                </div>
+                <!-- <div class="header-buttons d-flex align-items-center">
+                    <a (click)="scrollToWork()" class="btn-link px-3" style="cursor: pointer;">My Work</a>
+                    <button class="btn ml-3" routerLink="/contact">Say Hello</button>
+                </div> -->
+            </div>
+        </nav>
+    </div>
+</header>
